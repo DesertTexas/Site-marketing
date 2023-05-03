@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon site de marketing</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mon site de marketing</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Bienvenue sur notre site de marketing</h2>
+        <p>Découvrez nos services de marketing de pointe pour booster votre entreprise.</p>
+        <a href="#" class="btn">En savoir plus</a>
+    </section>
+
+    <section id="services">
+        <h2>Nos services</h2>
+        <div class="service">
+            <h3>Stratégie de marketing</h3>
+            <p>Nous développons des stratégies de marketing personnalisées pour répondre à vos objectifs commerciaux.</p>
+        </div>
+        <div class="service">
+            <h3>Publicité en ligne</h3>
+            <p>Nous créons et gérons des campagnes publicitaires en ligne efficaces pour atteindre votre public cible.</p>
+        </div>
+        <div class="service">
+            <h3>Marketing des médias sociaux</h3>
+            <p>Nous optimisons votre présence sur les réseaux sociaux pour accroître la visibilité de votre marque.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>À propos de nous</h2>
+        <p>Nous sommes une agence de marketing spécialisée dans la génération de leads et l'augmentation des ventes pour les entreprises.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <input type="text" placeholder="Nom complet" required>
+            <input type="email" placeholder="Adresse e-mail" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Tous droits réservés &copy; 2023 Mon site de marketing</p>
+    </footer>
+</body>
+</html>
